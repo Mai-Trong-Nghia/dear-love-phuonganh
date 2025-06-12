@@ -88,4 +88,9 @@ body {
   height: 200%;
   background: conic-gradient(from 0deg, #ff3366, #00ff99, #33ccff, #cc66ff, #ffff66, #ff3366);
   animation: rotateGlow 20s linear infinite;
-  opacity: 0.
+  opacity: 0.1;
+  filter: blur(150px);
+  z-index: -1;
+  left: -50%;
+  top: -50%;
+}
